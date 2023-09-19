@@ -1,0 +1,13 @@
+{
+  "hasSrc": false,
+  "packages": [
+    "prisma",
+    "clerk",
+    "shadcn-ui"
+  ],
+  "preferredPackageManager": "npm",
+  "rootPath": "",
+  "orm": "prisma",
+  "driver": "pg",
+  "auth": "clerk"
+}
