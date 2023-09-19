@@ -1,12 +1,14 @@
-import { getUserAuth } from "@/lib/auth/utils";
+import CreateMeetingCard from "@/components/layout/create-meeting";
 import { UserButton } from "@clerk/nextjs";
 
 export default async function Home() {
-  const userAuth = await getUserAuth();
   return (
     <main className="">
-      <UserButton afterSignOutUrl="/" />
-      <pre>{JSON.stringify(userAuth, null, 2)}</pre>
+      <div className="absolute right-0">
+        <UserButton afterSignOutUrl="/" />
+      </div>
+      <CreateMeetingCard />
+
     </main>
   );
 }
