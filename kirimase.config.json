@@ -1,10 +1,6 @@
 {
   "hasSrc": false,
-  "packages": [
-    "prisma",
-    "clerk",
-    "shadcn-ui"
-  ],
+  "packages": ["prisma", "clerk", "shadcn-ui"],
   "preferredPackageManager": "npm",
   "rootPath": "",
   "orm": "prisma",
