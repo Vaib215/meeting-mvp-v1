@@ -1,7 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { ClerkProvider } from "@clerk/nextjs";
+import { ClerkProvider, UserButton } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from '@/components/theme-provider';
 
@@ -26,9 +26,13 @@ export default function RootLayout({
             defaultTheme="dark"
             enableSystem
             disableTransitionOnChange
-          >{children}
+          >
+            <div className="absolute right-0">
+              <UserButton afterSignOutUrl="/" />
+            </div>
+            {children}
+            <Toaster />
           </ThemeProvider>
-          <Toaster />
         </ClerkProvider>
       </body>
     </html>

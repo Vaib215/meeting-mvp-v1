@@ -12,6 +12,7 @@
     "@clerk/nextjs": "^4.23.5",
     "@livekit/components-react": "^1.2.2",
     "@livekit/components-styles": "^1.0.6",
+    "@prisma/client": "^3.15.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.4",
     "@t3-oss/env-nextjs": "^0.6.1",

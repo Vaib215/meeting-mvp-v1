@@ -10,13 +10,13 @@ import '@livekit/components-styles';
 import { useSearchParams } from 'next/navigation';
 
 export default function Page() {
-  const token = useSearchParams().get('token');
-
+  const searchParams = useSearchParams();
+  
   return (
     <LiveKitRoom
       video={true}
       audio={true}
-      token={token!}
+      token={searchParams.get('token')!}
       connectOptions={{ autoSubscribe: false }}
       serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_URL}
       data-lk-theme="default"
