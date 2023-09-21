@@ -24,7 +24,7 @@ export default async function Home() {
           <li className="mb-2">Secure login and user management.</li>
           <li className="mb-2">Record meetings for future reference.</li>
           <li className="mb-2">Easy-to-use interface for a wide range of users.</li>
-          <li className="mb-2">Tailor the system to meet AICTE's specific requirements.</li>
+          <li className="mb-2">Tailor the system to meet AICTE&apos;s specific requirements.</li>
           <li className="mb-2">Accommodate varying numbers of users and meeting sizes.</li>
         </ul>
     </div>
