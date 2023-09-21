@@ -9,7 +9,7 @@ import type { User } from "@clerk/nextjs/api";
 
 export async function joinMeeting(formData: FormData) {
   "use server"
-  const room = formData.get("room") as string;
+  const room = formData.get("room").split(" ") as string;
   const name = formData.get("name") as string;
 
   const token = generateAccessToken(room, name);
