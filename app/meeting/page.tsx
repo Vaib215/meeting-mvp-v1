@@ -3,12 +3,7 @@
 import LiveKitBare from '@/components/livekit/livekit-bare';
 import { LiveKitRoom } from '@livekit/components-react';
 import '@livekit/components-styles';
-import { Metadata } from "next";
 import { useSearchParams } from 'next/navigation';
-
-export const metadata: Metadata = {
-  title: "Meeting",
-};
 
 export default function Page() {
   const searchParams = useSearchParams();
