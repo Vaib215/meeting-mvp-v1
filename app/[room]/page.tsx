@@ -9,7 +9,7 @@ export default async function Join({
 }) {
   return (
     <main className="">
-      <CreateMeetingCard withRoomName roomName={params.room} />
+      <CreateMeetingCard withRoomName roomName={params.room.split("-").join(" ")} />
     </main>
   );
 }
