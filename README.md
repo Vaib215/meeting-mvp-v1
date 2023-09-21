@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AICTE Online Meeting System
+
+## Team Hex Coders 2.0
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
+[![Issues](https://img.shields.io/github/issues/your-username/your-repo-name)](https://github.com/your-username/your-repo-name/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/your-username/your-repo-name)](https://github.com/your-username/your-repo-name/pulls)
+
+## Introduction
+
+Welcome to the AICTE Online Meeting System project, developed as a part of the Smart India Hackathon. This platform leverages the power of WebRTC (Web Real-Time Communication) to facilitate online meetings, collaborations, and communication within the AICTE community.
+
+## Features
+
+- **Real-Time Communication:** Seamless audio and video communication.
+- **Screen Sharing:** Share your screen for presentations and discussions.
+- **Chat Integration:** Chat with participants during meetings.
+- **User Authentication:** Secure login and user management.
+- **Recording:** Record meetings for future reference.
+- **Accessibility:** Easy-to-use interface for a wide range of users.
+- **Customization:** Tailor the system to meet AICTE's specific requirements.
+- **Scalability:** Accommodate varying numbers of users and meeting sizes.
 
 ## Getting Started
 
-First, run the development server:
+These instructions will help you set up and run the AICTE Online Meeting System on your local machine. For detailed installation and deployment instructions, please refer to our [Wiki](wiki-link).
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun run dev
-```
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Change directory
+cd your-repo-name
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Install dependencies
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Start the application
+npm start
