@@ -9,10 +9,10 @@ export default async function Home() {
       </div>
       <CreateMeetingCard />
 
-      <div className="markdown-body entry-content container-lg p-4">
+      <div className="markdown-body entry-content container-lg p-4 max-w-md mx auto ">
         <h1 className="text-3xl font-bold">AICTE Online Meeting System</h1>
         <h2 className="text-xl font-semibold">Team Hex Coders 2.0</h2>
-        <p className="my-4 text-gray-700">
+        <p className="my-4">
           Welcome to the AICTE Online Meeting System project, developed as a part of the Smart India Hackathon.
           This platform leverages the power of WebRTC (Web Real-Time Communication) to facilitate online meetings, collaborations, and communication within the AICTE community.
         </p>
