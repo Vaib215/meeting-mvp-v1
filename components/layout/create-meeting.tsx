@@ -13,7 +13,7 @@ export async function joinMeeting(formData: FormData) {
   const name = formData.get("name") as string;
 
   const token = generateAccessToken(room, name);
-  redirect(`/meeting?room=${room}&name=${name}&token=${token}`);
+  redirect(`/meeting?room=${room.split(" ").join("-")}&name=${name}&token=${token}`);
 }
 
 export default async function CreateMeetingCard({
